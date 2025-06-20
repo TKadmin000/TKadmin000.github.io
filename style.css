@@ -1,0 +1,64 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  padding: 0 1rem;
+}
+
+/* Layout */
+header {
+  background-color: #004080;
+  color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  border-bottom: 2px solid #004080;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  color: #004080;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 2rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
